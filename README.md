@@ -21,18 +21,18 @@ Here, In this template, we will create the network security rule module in Azure
 
 The following table lists the configurable parameters for the module with their default values.
 
-| Parameters                                         | Description                                                                                            | Default | Type   | Required |
-|----------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|----------|
-| name                                               | Name of Network Security Group                                                                         |         | string | Yes      |  
-| network_security_rule_name                         | Name of Network Security Rule, it is consists of the combination of access-direction-protocol-priority |         | string | Yes      |  
-| network_security_rule_priority                     | Priority of Network Security Rule                                                                      |         | number | Yes      |
-| network_security_rule_direction                    | Direction of Network Security Rule. Possible values are Inbound and Outbound                           | Inbound | string | Yes      |
-| network_security_rule_access                       | Access of Network Security Rule                                                                        | Allow   | string | Yes      |
-| network_security_rule_protocol                     | Protocol of Network Security Rule                                                                      | Tcp     | string | Yes      |
-| network_security_rule_source_port_ranges           | Source Port Ranges of Network Security Rule                                                            |         | string | Yes      |
-| network_security_rule_destination_port_ranges      | Destination Port Ranges of Network Security Rule                                                       |         | string | Yes      |
-| network_security_rule_source_address_prefixes      | Source Address Prefixes of Network Security Rule                                                       |         | string | Yes      |
-| network_security_rule_destination_address_prefixes | Destination Address Prefixes of Network Security Rule                                                  |         | string | Yes      |
+| Parameters                                            | Description                                                                                            | Default | Type   | Required |
+|-------------------------------------------------------|--------------------------------------------------------------------------------------------------------|---------|--------|----------|
+| name_VV                                               | Name of Network Security Group                                                                         |         | string | Yes      |  
+| network_security_rule_name_VV                         | Name of Network Security Rule, it is consists of the combination of access-direction-protocol-priority |         | string | Yes      |  
+| network_security_rule_priority_VV                     | Priority of Network Security Rule                                                                      |         | number | Yes      |
+| network_security_rule_direction_VV                    | Direction of Network Security Rule. Possible values are Inbound and Outbound                           | Inbound | string | Yes      |
+| network_security_rule_access_VV                       | Access of Network Security Rule                                                                        | Allow   | string | Yes      |
+| network_security_rule_protocol_VV                     | Protocol of Network Security Rule                                                                      | Tcp     | string | Yes      |
+| network_security_rule_source_port_ranges_VV           | Source Port Ranges of Network Security Rule                                                            |         | string | Yes      |
+| network_security_rule_destination_port_ranges_VV      | Destination Port Ranges of Network Security Rule                                                       |         | string | Yes      |
+| network_security_rule_source_address_prefixes_VV      | Source Address Prefixes of Network Security Rule                                                       |         | string | Yes      |
+| network_security_rule_destination_address_prefixes_VV | Destination Address Prefixes of Network Security Rule                                                  |         | string | Yes      |
 
 ---
 
