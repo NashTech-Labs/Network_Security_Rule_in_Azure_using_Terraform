@@ -13,7 +13,7 @@ Here, In this template, we will create the network security rule module in Azure
 
 ### Steps:-
 1. Login into AZ account using `az login` or `az login --tenant <TENANT-ID>`
-2. Login into the Azure using the Service Principal the Service Principal like `az service principal -u <client-id> -p <client-password> -t <tenant-ID>`.
+2. Login into the Azure using the Service Principal the Service Principal like `az login --service-principal -u <app-id> -p <password-or-cert> --tenant <tenant>`.
 3. Set the subscription id using the Azure `az account set --subscription <name or id>`
 
 ---
